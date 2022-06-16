@@ -1,0 +1,88 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&family=Signika+Negative:wght@300;400;500;600;700&display=swap');
+
+:root {
+    
+    --color1: #3C3C3C;
+    --color2: #320A0A;
+    --color3: #960000;
+    --fontpadrao: 'Signika Negative', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--fontpadrao)
+}
+
+header {
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.144);
+    
+    background-color: rgb(182, 182, 182);
+    margin: auto;
+}
+
+header img {
+    margin: auto;
+    min-width: 100px;
+    max-width: 120px;
+    padding: 15px;
+}
+
+header nav {
+    
+    padding: 5px;
+}
+
+header nav > a {
+    
+    font-size: 1em;
+    
+    color: white;
+    text-decoration: none;
+    margin: 2px;
+    
+    
+}
+
+nav a:hover {
+    color: var(--color2)
+}
+
+section#main {
+    margin: auto;
+    max-width: 600px;
+    box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.144);
+    padding: 20px;
+}
+
+main section#quemSomos {
+    background-color: var(--color2);
+    color: white;
+    padding: 20px;
+    margin: 5px 0px;
+    border-radius: 10px;
+}
+
+p {
+    margin: 10px 0px;
+    font-family: 'Signika Negative', sans-serif;
+}
+
+h2 {
+    font-family: 'Signika Negative', sans-serif;
+}
+
+footer {
+    padding: 20px 20px;
+    background-color: var(--color1);
+    color: white;
+}
+
+footer img{
+    padding-left: 45%;
+    padding-bottom: -50px;
+    max-width: 150px;
+    
+}
